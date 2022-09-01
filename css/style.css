@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#logo {
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    margin: 15px 50px;
+}
+
+#menu-h {
+    width: 100%;
+    height: 60px;
+    background-color: #201f1b;
+    border-bottom: 3px solid #ff5e1e;
+    position: fixed;
+}
+
+#menu-h ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    position: relative;
+    left: 1450px;
+}
+
+#menu-h ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+#menu-h ul li a:hover {
+    background-color: #ff5e1e;
+    color: #fff;
+    border-radius: 35px;
+}
+
+/* Classes */
+.orange {
+    color: #ff5e1e;
+}
+
+.orange-sempre {
+    background-color: #ff5e1e;
+    border-radius: 35px;
+}
